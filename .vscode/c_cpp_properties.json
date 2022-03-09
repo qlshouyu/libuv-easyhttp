@@ -1,0 +1,26 @@
+{
+  "configurations": [
+      {
+          "name": "WSL2",
+          "intelliSenseMode": "clang-x64",
+          "compilerPath": "/usr/bin/gcc",
+          "includePath": [
+              "${workspaceFolder}/include",
+              "${workspaceFolder}/deps/http-parser",
+              "${workspaceFolder}/deps/spdlog-1.x/include",
+              "${workspaceFolder}/deps/libuv-v1.43.0/include"
+          ],
+          "defines": [],
+          "browse": {
+              "path": [
+                  "${workspaceFolder}"
+              ],
+              "limitSymbolsToIncludedHeaders": true,
+              "databaseFilename": ""
+          },
+          "cStandard": "c11",
+          "cppStandard": "c++17"
+      }
+  ],
+  "version": 4
+}
